@@ -1,0 +1,15 @@
+.venv
+
+*.out
+
+**/kafka-logs/
+**/source_code/
+
+__pycache__/
+
+.adk
+.DS_Store
+
+.env
+python-version
+uv.lock

@@ -1,0 +1,1 @@
+**Tracer AI** Agent is an intelligent automation agent designed to streamline the process of exception analysis, root cause research, and solution suggestions in software applications. It acts as a developer assistant by parsing exception messages, identifying the origin of the error in code, and providing actionable recommendations to fix the issue.

@@ -1,0 +1,1 @@
+**Event Handler Daemon** is a Python-based daemon that listens to a Kafka topic for incoming events, classifies them using Google ADK agents, and triggers downstream agent workflows based on the event type. It is designed for automated, real-time processing of application, infrastructure, platform, and security events.

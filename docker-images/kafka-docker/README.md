@@ -1,0 +1,1 @@
+Sample docker compose file for running Kafka in local machine.
