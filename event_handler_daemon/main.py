@@ -94,11 +94,11 @@ def run_listener(topic="events-topic", bootstrap_servers=None, group_id="events-
                     logging.info(f"Partition: {message.partition}, Offset: {message.offset}")
                     logging.info(f"Exception trace: {message.value}")
 
-                    # 1️⃣ Call the classifier agent
+                    # Call the classifier agent
                     result = call_adk_agent("event_classifier_agent", message.value)
                     event_type = extract_agent_text(result)
 
-                    # 2️⃣ Decide next action
+                    # Decide next action
                     if event_type == "application":
                         result = call_adk_agent("java_event_handler_agent", message.value)
                         print(json.dumps(result, indent=2))
